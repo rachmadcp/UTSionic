@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      List Notes
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div>
+    <table>
+      <tr>
+        <th>Judul</th>
+        <th>Tanggal</th>
+        <th>Isi</th>
+        <th>Nilai</th>
+      </tr>
+      <tr *ngFor="let count of datatemp; let i = index">
+        <td>{{datatemp[i].judul}}</td>
+        <td>{{datatemp[i].tanggal}}</td>
+        <td>{{datatemp[i].isi}}</td>
+        <td>{{datatemp[i].nilai}}</td>
+      </tr>
+  
+    </table>
+  </div>
+</ion-content>

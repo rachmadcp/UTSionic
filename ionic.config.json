@@ -1,0 +1,7 @@
+{
+  "name": "utsionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
